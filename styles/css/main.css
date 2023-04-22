@@ -1,0 +1,229 @@
+.header {
+  background-color: #f5f5f5;
+  height: 36px;
+  width: 100vw;
+}
+
+#basket {
+  height: 20px;
+  display: flex;
+  position: absolute;
+  left: 20px;
+  top: 5px;
+  fill: black;
+}
+
+#basket:hover {
+  fill: gray;
+}
+
+#right {
+  height: 20px;
+  display: flex;
+  position: absolute;
+  left: 55px;
+  top: 5px;
+  fill: black;
+}
+
+#right:hover {
+  fill: gray;
+}
+
+#Find-a-store {
+  position: absolute;
+  display: flex;
+  right: 30px;
+  gap: 20px;
+  font-size: 15px;
+  align-items: center;
+}
+
+.div1spans {
+  color: black;
+}
+
+.div1spans:hover {
+  color: gray;
+}
+
+#nikelogo {
+  height: 50px;
+  left: 25px;
+  position: absolute;
+}
+
+#div2 {
+  height: 64px;
+  width: 100vw;
+}
+
+#div3 {
+  position: absolute;
+  left: 500px;
+  top: 38px;
+  width: 800px !important;
+}
+
+#div4before {
+  height: 45px !important;
+  width: 100vw;
+  background-color: #f5f5f5;
+}
+
+.div4slide {
+  height: 35px !important;
+  width: 400px !important;
+  background-color: #f5f5f5;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 450px;
+}
+
+.dropbtn {
+  background-color: #ffffff;
+  color: black;
+  padding: 2px;
+  font-size: 16px;
+  border: 3px white;
+}
+
+.dropdown {
+  position: absolute;
+  display: inline-block;
+  left: 460px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 8px 10px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #ffffff;
+  border-bottom: 3px solid black;
+}
+
+#divmainphoto {
+  height: 800px;
+  width: 800px;
+  display: flex;
+  background-size: cover;
+}
+
+#div5 {
+  display: flex;
+  justify-content: center;
+  height: 300px;
+  background-color: #ffffff;
+  width: 100vw;
+  align-items: 500px;
+}
+
+#shopdiv {
+  display: flex;
+  position: absolute;
+  top: 500px;
+  height: 40px;
+  width: 90px;
+  background-color: black;
+  border-top-left-radius: 50%;
+  border-bottom-left-radius: 50%;
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+  justify-content: center;
+  align-items: center;
+}
+
+#shopid {
+  position: absolute;
+  justify-content: center;
+  color: #ffffff;
+}
+
+#div6 {
+  display: flex;
+  flex-direction: column;
+  height: 350px;
+  width: 350px;
+  background-color: aqua;
+  position: absolute;
+}
+
+button {
+  padding: 6px 20px;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  background: #111;
+  color: #fff;
+}
+
+#shopid {
+  margin: 200px;
+  padding: 6px 20px;
+  border-radius: 30px;
+  border: 1.5px solid transparent;
+  justify-content: center;
+  align-items: center;
+  background: #111;
+  color: rgb(255, 255, 255);
+}
+
+#one {
+  justify-content: center;
+  padding-top: 15px;
+  padding-left: 300px;
+}
+
+.bolderr {
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding-top: 30px;
+  padding-left: 60px;
+  margin-left: -250px;
+  font-weight: 600;
+  font-size: 90px;
+}
+
+#NikeJumpMan {
+  height: 600px;
+  width: 600px;
+  background-image: url("nikejumpingman.webp");
+}
+
+#nikejumpspan1 {
+  position: absolute;
+  margin-left: 100px;
+  margin-top: 500px;
+  font-size: 30px;
+  color: #ffffff;
+}
+
+.divforphotos {
+  height: 600px;
+  width: 600px;
+}
+
+/*# sourceMappingURL=main.css.map */
